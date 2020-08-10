@@ -1,4 +1,4 @@
-# laravelProject
+# LaravelProject(Laracast)
 
 
 #-- CLONING A LARAVEL PROJECT FROM GIT
