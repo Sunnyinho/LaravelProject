@@ -189,7 +189,7 @@
       <workItem from="1596943982367" duration="11213000" />
       <workItem from="1596980047321" duration="1803000" />
       <workItem from="1597029240765" duration="4969000" />
-      <workItem from="1597040874701" duration="4179000" />
+      <workItem from="1597040874701" duration="4652000" />
     </task>
     <task id="LOCAL-00001" summary="Created An Article page then made seven restful controllers for CRUD.&#10;&#10;Reviewed By :- Sunny Shah">
       <created>1597041658216</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597041658216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Form is created.&#10;Insert values into database using forms.&#10;&#10;&#10;&#10;Reviewed By :- Sunny Shah">
+      <created>1597046197968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597046197968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created An Article page then made seven restful controllers for CRUD.&#10;&#10;Reviewed By :- Sunny Shah" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created An Article page then made seven restful controllers for CRUD.&#10;&#10;Reviewed By :- Sunny Shah" />
+    <MESSAGE value="Form is created.&#10;Insert values into database using forms.&#10;&#10;&#10;&#10;Reviewed By :- Sunny Shah" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form is created.&#10;Insert values into database using forms.&#10;&#10;&#10;&#10;Reviewed By :- Sunny Shah" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="175" width="719" height="452" key="EditFileWatcherDialog" timestamp="1596967166116">
@@ -244,10 +252,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1597029772953" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597041688687">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597046200466">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597041688687" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1597046200466" />
     <state x="297" y="79" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596963896927">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
