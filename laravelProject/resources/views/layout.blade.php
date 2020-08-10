@@ -35,7 +35,6 @@
 </div>
 
     @yield('content')
-    @yield('about_page')
 
 <div id="copyright" class="container">
     <p> &copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
