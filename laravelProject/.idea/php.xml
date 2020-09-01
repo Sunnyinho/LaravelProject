@@ -104,6 +104,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/magyarjeti/loripsum-client" />
       <path value="$PROJECT_DIR$/vendor/magyarjeti/laravel-lipsum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

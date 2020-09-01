@@ -16,12 +16,12 @@ class ArticlesController extends Controller
 
     }
 
-    public function show($id){
+    public function show(Article $article){
     //Show a single resource.
 
-        $articles = Article::find($id);
+//        $articles = Article::find($id);
 
-        return view('articles.show', ['article' => $articles]);
+        return view('articles.show', ['article' => $article]);
 
     }
 
@@ -35,6 +35,15 @@ class ArticlesController extends Controller
     public function store(){
     //Persist or Holds a new resource.
 
+        request()->validate([
+
+            'title' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required'
+
+        ]);
+
+
         $article = new Article();
 
         $article->title = request('title');
@@ -46,18 +55,26 @@ class ArticlesController extends Controller
         return redirect('/articles');
     }
 
-    public function edit($id){
+    public function edit(Article $article){
     //Show a view to edit an existing resource.
 
-        $articles = Article::find($id);
+//        $articles = Article::find($id);
 
-        return view('/articles.edit', ['article' => $articles]);
+        return view('/articles.edit', ['article' => $article]);
     }
 
-    public function update($id){
+    public function update(Article $article){
     //Persist or Continue or Hold the edited resource.
 
-        $article = Article::find($id);
+        request()->validate([
+
+            'title' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required'
+
+        ]);
+
+//        $article = Article::find($id);
 
         $article->title = request('title');
         $article->excerpt = request('excerpt');
@@ -69,8 +86,11 @@ class ArticlesController extends Controller
 
     }
 
-    public function destroy(){
+    public function destroy($id){
     //Delete the resource.
+        $article = Article::find($id);
+
+        $article->delete();
 
     }
 
