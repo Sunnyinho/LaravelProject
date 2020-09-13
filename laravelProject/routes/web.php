@@ -37,3 +37,10 @@ Route::get('/articles/{article}', 'ArticlesController@show');
 Route::get('/articles/{article}/edit', 'ArticlesController@edit');
 
 Route::put('/articles/{article}', 'ArticlesController@update');
+
+
+
+//To send Mails-----------------------
+Route::get('/contact', 'ContactController@show');
+
+Route::post('/contact', 'ContactController@store')->name('contact');
